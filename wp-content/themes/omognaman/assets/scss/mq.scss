@@ -1,0 +1,9 @@
+@media (min-width: 500px) {
+    
+    .episode {
+        display: grid;
+        grid-template-columns: 25% auto;
+        grid-template-rows: auto auto;
+    }
+
+}

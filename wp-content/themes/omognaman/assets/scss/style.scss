@@ -1,0 +1,77 @@
+@import '../../node_modules/normalize-scss/sass/normalize/import-now';
+
+@mixin center {
+    margin: 0 auto;
+    display: block;
+}
+
+body {
+    font-family: sans-serif;
+    background: #eaeaea;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.site-wrapper {
+    overflow: hidden;
+}
+
+.page {
+    @include center;
+    max-width: 768px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto;
+}
+
+.site-header {}
+.site-title {
+    text-align: center;
+}
+
+.episode {
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0, .2);
+    background: white;
+}
+.episode__header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.episode__title {
+    margin: 0;
+    font-weight: normal;
+}
+.episode__metadata {
+    font-size: 14px;
+    color: #333;
+}
+.episode__image {
+    margin: 0;
+    grid-column-start: 1;
+    img {
+        display: block;
+    }
+}
+.episode__player {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.episode__description {
+    grid-column-start: 2;
+    grid-column-end: end;
+    grid-row-start: 1;
+    p:first-of-type {
+        margin-top: 0;
+    }
+}
+.episode__description__inner {
+    margin: 40px;
+}
+
+@import 'mq';
