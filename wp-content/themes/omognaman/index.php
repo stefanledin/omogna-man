@@ -9,7 +9,7 @@
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <article class="episode">
                     <figure class="episode__image">
-                        <img src="http://placehold.it/400x400">
+                        <img src="<?php echo asset('img/logga.png');?>" alt="Omogna män">
                     </figure>
                     <div class="episode__description">
                         <div class="episode__description__inner">

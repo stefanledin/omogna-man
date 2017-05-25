@@ -16,7 +16,7 @@
 
 body {
     font-family: sans-serif;
-    background: #eaeaea;
+    background: $vanilla;
     line-height: 1.5;
 }
 
@@ -35,10 +35,13 @@ img {
     width: 95%;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 100px auto;
+    grid-template-rows: auto auto;
 }
 
 .site-header {}
+.site-logo {
+    max-width: 200px;
+}
 .site-title {
     text-align: center;
 }

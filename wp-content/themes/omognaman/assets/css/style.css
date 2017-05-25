@@ -409,7 +409,7 @@ template {
 /* Färger */
 body {
   font-family: sans-serif;
-  background: #eaeaea;
+  background: #f7f7ee;
   line-height: 1.5; }
 
 img {
@@ -426,7 +426,10 @@ img {
   width: 95%;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 100px auto; }
+  grid-template-rows: auto auto; }
+
+.site-logo {
+  max-width: 200px; }
 
 .site-title {
   text-align: center; }

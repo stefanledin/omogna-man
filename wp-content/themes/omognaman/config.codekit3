@@ -41,6 +41,17 @@
 		"oAP": "\/assets\/img\/.gitkeep",
 		"oF": 0
 		},
+	"\/assets\/img\/logga.png": {
+		"ft": 32768,
+		"iS": 154789,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logga.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/index.php": {
 		"ft": 8192,
 		"oA": 2,
