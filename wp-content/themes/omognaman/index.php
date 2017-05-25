@@ -3,7 +3,7 @@
     <div class="site-wrapper">
         <div class="page">
             <header class="site-header">
-                <h1 class="site-title">Lorem ipsum</h1>
+                <h1 class="site-title">Omogna män</h1>
             </header>
             <main>
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

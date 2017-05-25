@@ -9,6 +9,7 @@
     ],
     "require": {
         "wpackagist-plugin/seriously-simple-podcasting": ">=1.16.2",
-        "wpackagist-plugin/wp-sanitize-file-name-plus": ">=1.0.3"
+        "wpackagist-plugin/wp-sanitize-file-name-plus": ">=1.0.3",
+        "wpackagist-plugin/wp-migrate-db": ">=0.9.2"
     }
 }
