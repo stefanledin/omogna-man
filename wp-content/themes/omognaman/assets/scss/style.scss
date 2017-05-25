@@ -1,5 +1,14 @@
 @import '../../node_modules/normalize-scss/sass/normalize/import-now';
 
+/**
+ * SASS-grjer
+ */
+
+ /* Färger */
+ $brown: #60332a;
+ $vanilla: #f7f7ee;
+ $blue: #6b88a9;
+
 @mixin center {
     margin: 0 auto;
     display: block;
