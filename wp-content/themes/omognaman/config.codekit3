@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/.babelrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.babelrc",
+		"oF": 0
+		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -63,6 +69,24 @@
 		"oA": 2,
 		"oAP": "\/assets\/js\/.gitkeep",
 		"oF": 0
+		},
+	"\/assets\/js\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/min\/app-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/bundle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/min\/bundle-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/assets\/scss\/mq.scss": {
 		"aP": 0,
@@ -162,6 +186,15 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/min\/webpack.config-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/min\/webpack.config-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -209,6 +242,15 @@
 		"oAP": "\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/webpack.config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/min\/webpack.config-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/yarn.lock": {
 		"ft": 8192,

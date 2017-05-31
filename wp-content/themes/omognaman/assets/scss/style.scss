@@ -25,6 +25,14 @@ img {
     height: auto;
 }
 
+a, a:visited {
+    color: $blue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 .site-wrapper {
     overflow: hidden;
 }
@@ -44,6 +52,13 @@ img {
 }
 .site-title {
     text-align: center;
+    text-transform: lowercase;
+    font-weight: normal;
+    font-size: 4em;
+    .wf-muli-n4-active & {
+        font-family: 'Muli';
+        font-weight: 400;
+    }
 }
 
 .episode {

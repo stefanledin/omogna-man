@@ -12,6 +12,7 @@ function enqueue_scripts_and_styles () {
     wp_deregister_script( 'wp-embed' );
     wp_deregister_script( 'jquery' );
     wp_enqueue_script( 'jquery', '//code.jquery.com/jquery-latest.min.js', null, null, true );
+    wp_enqueue_script( 'app', $assetsDir.'/js/bundle.js', 'jquery', bust_cache('js/bundle.js'), true );
 }
 
 function bust_cache( $file_name ) {
