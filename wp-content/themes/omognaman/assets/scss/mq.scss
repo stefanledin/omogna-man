@@ -1,9 +1,19 @@
 @media (min-width: 500px) {
+
+    .page {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
     
     .episode {
         display: grid;
         grid-template-columns: 25% auto;
         grid-template-rows: auto auto;
+    }
+
+    .episode__description__inner {
+        margin: 40px;
     }
 
 }

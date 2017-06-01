@@ -33,6 +33,10 @@ a:hover {
     text-decoration: underline;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 .site-wrapper {
     overflow: hidden;
 }
@@ -41,9 +45,6 @@ a:hover {
     @include center;
     max-width: 768px;
     width: 95%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
 }
 
 .site-header {}
@@ -98,7 +99,7 @@ a:hover {
     }
 }
 .episode__description__inner {
-    margin: 40px;
+    margin: 20px;
 }
 
 @import 'mq';
