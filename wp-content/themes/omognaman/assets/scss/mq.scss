@@ -1,4 +1,10 @@
 @media (min-width: 500px) {
+
+    .page {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
     
     .site-title {
         font-size: 3em;
@@ -16,6 +22,9 @@
 
     .site-title {
         font-size: 4em;
+    }
+    .episode__description__inner {
+        margin: 40px;
     }
 
 }

@@ -25,9 +25,11 @@
                                     </span>
                                 </div>
                             </header>
-                            <audio src="<?php echo get_post_meta( $post->ID, 'audio_file', true ); ?>" controls="controls" class="episode__player">
-                                Moget
-                            </audio>
+                            <?php if ( $audio_file = get_post_meta( $post->ID, 'audio_file', true ) ) : ?>
+                                <audio src="<?php echo $audio_file; ?>" controls="controls" preload="none" class="episode__player">
+                                    Moget
+                                </audio>
+                            <?php endif; ?>
                             <?php the_content(); ?>
                         </div>
                     </div>
