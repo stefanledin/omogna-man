@@ -440,9 +440,8 @@ a:hover {
 
 .site-title {
   text-align: center;
-  text-transform: lowercase;
   font-weight: normal;
-  font-size: 4em; }
+  font-size: 2em; }
   .wf-muli-n4-active .site-title {
     font-family: 'Muli';
     font-weight: 400; }
@@ -485,7 +484,13 @@ a:hover {
   margin: 40px; }
 
 @media (min-width: 500px) {
+  .site-title {
+    font-size: 3em; }
   .episode {
     display: grid;
     grid-template-columns: 25% auto;
     grid-template-rows: auto auto; } }
+
+@media (min-width: 767px) {
+  .site-title {
+    font-size: 4em; } }

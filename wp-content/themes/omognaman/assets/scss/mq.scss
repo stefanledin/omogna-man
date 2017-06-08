@@ -1,9 +1,21 @@
 @media (min-width: 500px) {
     
+    .site-title {
+        font-size: 3em;
+    }
+
     .episode {
         display: grid;
         grid-template-columns: 25% auto;
         grid-template-rows: auto auto;
+    }
+
+}
+
+@media (min-width: 767px) {
+
+    .site-title {
+        font-size: 4em;
     }
 
 }
