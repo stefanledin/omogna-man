@@ -58,6 +58,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/logga_1x.png": {
+		"ft": 32768,
+		"iS": 73848,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logga_1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/logga_2x.png": {
+		"ft": 32768,
+		"iS": 174875,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logga_2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/index.php": {
 		"ft": 8192,
 		"oA": 2,

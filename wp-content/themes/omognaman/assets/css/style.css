@@ -436,7 +436,7 @@ ul {
   width: 95%; }
 
 .site-logo {
-  max-width: 200px; }
+  margin: 20px 0; }
 
 .site-title {
   text-align: center;
@@ -449,7 +449,8 @@ ul {
 .episode {
   margin-bottom: 50px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  background: white; }
+  background: white;
+  overflow: hidden; }
 
 .episode__header {
   margin-bottom: 20px;
@@ -457,15 +458,17 @@ ul {
 
 .episode__title {
   margin: 0;
-  font-weight: normal; }
+  font-weight: normal;
+  text-align: center; }
 
 .episode__metadata {
   font-size: 14px;
-  color: #333; }
+  color: #333;
+  text-align: center; }
 
 .episode__image {
-  margin: 0;
-  grid-column-start: 1; }
+  margin: 0 0 20px 0;
+  border: 2px solid #60332a; }
   .episode__image img {
     display: block; }
 
@@ -474,13 +477,11 @@ ul {
   margin-bottom: 20px; }
 
 .episode__description {
-  grid-column-start: 2;
-  grid-column-end: end;
-  grid-row-start: 1; }
+  margin: 0 auto; }
   .episode__description p:first-of-type {
     margin-top: 0; }
 
-.episode__description__inner {
+.episode__inner {
   margin: 20px; }
 
 @media (min-width: 500px) {
@@ -491,12 +492,14 @@ ul {
   .site-title {
     font-size: 3em; }
   .episode {
-    display: grid;
-    grid-template-columns: 25% auto;
-    grid-template-rows: auto auto; } }
+    /* display: grid;
+        grid-template-columns: 25% auto;
+        grid-template-rows: auto auto; */ }
+  .episode__description {
+    width: 80%; } }
 
 @media (min-width: 767px) {
   .site-title {
     font-size: 4em; }
-  .episode__description__inner {
+  .episode__inner {
     margin: 40px; } }
