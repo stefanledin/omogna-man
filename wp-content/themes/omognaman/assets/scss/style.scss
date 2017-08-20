@@ -18,6 +18,10 @@ body {
     font-family: sans-serif;
     background: $vanilla;
     line-height: 1.5;
+    .wf-muli-n4-active & {
+        font-family: 'Muli';
+        font-weight: 400;
+    }
 }
 
 img {
@@ -47,17 +51,55 @@ ul {
     width: 95%;
 }
 
-.site-header {}
-.site-logo {
-    margin: 20px 0;
+.site-header {
+    padding: 20px 0;
 }
-.site-title {
-    text-align: center;
-    font-weight: normal;
-    font-size: 2em;
-    .wf-muli-n4-active & {
-        font-family: 'Muli';
+.site-description {
+    padding: 10px 0;
+    p {
+        margin: 0;
+    }
+}
+.site-slogan {
+    margin: 0 0 20px;
+    display: flex;
+    align-items: flex-start;
+    h2 {
+        margin: 0;
+        color: $brown;
+        text-align: center;
         font-weight: 400;
+        line-height: 1;
+    }
+}
+
+.media-logos {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+}
+.media-logos__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    svg {
+        margin: 0 auto 3px;
+        display: block;
+        fill: $brown;
+    }
+    span {
+        display: block;
+        font-size: 0.875em;
+        text-align: center;
+    }
+    a {
+        color: $brown;
+    }
+    a:hover {
+        color: $blue;
+        svg {
+            fill: $blue;
+        }
     }
 }
 
